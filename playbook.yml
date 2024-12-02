@@ -1,5 +1,7 @@
 ---
 - name: Merge provided configuration with device configuration
+  hosts: all
+  
   cisco.ios.ios_l3_interfaces:
     config:
       - name: GigabitEthernet0/1
