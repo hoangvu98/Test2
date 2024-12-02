@@ -13,7 +13,7 @@
           - address: fd5d:12c9:2201:1::1/64
       - name: GigabitEthernet3.100
         ipv4:
-          - address: 192.168.0.3/24
+          - address: 192.168.0.4/24
       - name: Vlan901
         autostate: false
         ipv4:
